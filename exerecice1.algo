@@ -1,0 +1,34 @@
+ALGORITHM algorithm_name
+VAR
+    setch : string
+ lengthCh : integer
+  words :  integer
+   voyelle : integer
+ _declarations
+BEGIN
+    set_insrepate 
+   write('please enter again the string :')
+    read(ch)
+ until(ch[ch.length]== .)
+
+
+ lengthCh = ch.length 
+
+ words = 1
+ voyelle = 0
+
+   for(i=0,i<=lengthCh,i=i+1){
+    if(ch[i]=' ')
+        words=words+1
+
+    if(ch[i]= e || o || a ||i || u)
+        voyelle = voyelle + 1
+
+
+}
+  write (lengthch,words, voyelle)
+  tructions
+END
+
+
+
